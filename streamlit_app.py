@@ -10,8 +10,8 @@ from sklearn.preprocessing import StandardScaler
 st.set_page_config(page_title="Amazona_Dashboard",
                    page_icon="bar_chart:",
                    layout="wide")
-st.logo("https://github.com/fazicoabryanda/Dicoding_Final_Submission_Data_Visualization/blob/44159968883544ba00acdcbee08c8f5d98868507/img/th.jpeg",size='large')
-st.image("https://github.com/fazicoabryanda/Dicoding_Final_Submission_Data_Visualization/blob/44159968883544ba00acdcbee08c8f5d98868507/img/th.jpeg",width=200)
+st.logo("img/th.jpeg",size='large')
+st.image("img/th.jpeg",width=200)
 st.title("Amazona: Dashboard")
 
 
