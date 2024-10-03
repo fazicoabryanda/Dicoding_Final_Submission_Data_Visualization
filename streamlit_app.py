@@ -10,8 +10,8 @@ from sklearn.preprocessing import StandardScaler
 st.set_page_config(page_title="Amazona_Dashboard",
                    page_icon="bar_chart:",
                    layout="wide")
-st.logo("img/th.jpeg",size='large')
-st.image("img/th.jpeg",width=200)
+st.logo("image/th.jpeg",size='large')
+st.image("image/th.jpeg",width=200)
 st.title("Amazona: Dashboard")
 
 
