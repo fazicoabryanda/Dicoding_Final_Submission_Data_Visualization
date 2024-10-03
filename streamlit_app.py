@@ -10,8 +10,8 @@ from sklearn.preprocessing import StandardScaler
 st.set_page_config(page_title="Amazona_Dashboard",
                    page_icon="bar_chart:",
                    layout="wide")
-st.logo("image/th.jpeg",size='large')
-st.image("image/th.jpeg",width=200)
+st.logo("https://github.com/fazicoabryanda/Dicoding_Final_Submission_Data_Visualization/blob/44159968883544ba00acdcbee08c8f5d98868507/img/th.jpeg",size='large')
+st.image("https://github.com/fazicoabryanda/Dicoding_Final_Submission_Data_Visualization/blob/44159968883544ba00acdcbee08c8f5d98868507/img/th.jpeg",width=200)
 st.title("Amazona: Dashboard")
 
 
@@ -37,8 +37,8 @@ def rataan_penjualan(ecommerce):
 
 
 # Import Dataset
-ecommerce = pd.read_csv("data/ecommerce_datacleaned.csv")
-geolocation_df = pd.read_csv("data/geolocation_cleaned.csv")
+ecommerce = pd.read_csv("https://raw.githubusercontent.com/fazicoabryanda/Dicoding_Final_Submission_Data_Visualization/refs/heads/main/data/ecommerce_datacleaned.csv")
+geolocation_df = pd.read_csv("https://raw.githubusercontent.com/fazicoabryanda/Dicoding_Final_Submission_Data_Visualization/refs/heads/main/data/geolocation_cleaned.csv")
 
 
 
